@@ -76,7 +76,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="alloc.h" />
+    <ClInclude Include="construct.h" />
     <ClInclude Include="String.h" />
+    <ClInclude Include="TypeTraits.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Alloc.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
