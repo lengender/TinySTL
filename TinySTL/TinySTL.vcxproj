@@ -78,6 +78,7 @@
   <ItemGroup>
     <ClInclude Include="alloc.h" />
     <ClInclude Include="construct.h" />
+    <ClInclude Include="iterator.h" />
     <ClInclude Include="String.h" />
     <ClInclude Include="TypeTraits.h" />
   </ItemGroup>
