@@ -1,5 +1,5 @@
-#ifndef _TYPETRAITS_H_
-#define _TYPETRAITS_H_
+#ifndef _TYPE_TRAITS_H_
+#define _TYPE_TRAITS_H_
 /*
 	1、萃取技巧，实际上是通过函数模板中的类型推导机制，以期在编译期获得函数的调用
 	2、类型萃取就是为了解决和iterator有关的问题
@@ -188,14 +188,6 @@ namespace TinySTL
 	};
 
 	template<> struct _type_traits <signed char*> {
-		typedef _true_type		has_trivial_default_constructor;
-		typedef _true_type		has_trivial_copy_constructor;
-		typedef _true_type		has_trivial_assignment_operator;
-		typedef _true_type		has_trivial_destructor;
-		typedef _true_type		is_POD_type;
-	};
-
-	template<> struct _type_traits <const char*> {
 		typedef _true_type		has_trivial_default_constructor;
 		typedef _true_type		has_trivial_copy_constructor;
 		typedef _true_type		has_trivial_assignment_operator;

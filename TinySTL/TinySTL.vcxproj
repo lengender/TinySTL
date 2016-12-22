@@ -77,13 +77,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="alloc.h" />
+    <ClInclude Include="allocator.h" />
     <ClInclude Include="construct.h" />
     <ClInclude Include="iterator.h" />
+    <ClInclude Include="reverseIterator.h" />
+    <ClInclude Include="Test.h" />
     <ClInclude Include="String.h" />
-    <ClInclude Include="TypeTraits.h" />
+    <ClInclude Include="type_traits.h" />
+    <ClInclude Include="uninitializedFunctions.h" />
+    <ClInclude Include="utility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Alloc.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="string_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

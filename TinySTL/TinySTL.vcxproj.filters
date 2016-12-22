@@ -13,26 +13,59 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\include">
+      <UniqueIdentifier>{f5c2e48e-d9d9-40c4-b0f6-bb470e810083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{33d43c8e-26b6-40e4-afe2-d722911fbece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{67f4f477-c754-4588-ab05-127090cd81fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="String.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="alloc.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\include</Filter>
     </ClInclude>
     <ClInclude Include="construct.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="TypeTraits.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\include</Filter>
     </ClInclude>
     <ClInclude Include="iterator.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="uninitializedFunctions.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="type_traits.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseIterator.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>头文件\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Alloc.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="string_test.cpp">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
