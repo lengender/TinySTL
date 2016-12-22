@@ -76,6 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="algorithm.h" />
     <ClInclude Include="alloc.h" />
     <ClInclude Include="allocator.h" />
     <ClInclude Include="construct.h" />
@@ -86,12 +87,14 @@
     <ClInclude Include="type_traits.h" />
     <ClInclude Include="uninitializedFunctions.h" />
     <ClInclude Include="utility.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Alloc.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="string_test.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

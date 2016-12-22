@@ -54,6 +54,12 @@
     <ClInclude Include="utility.h">
       <Filter>头文件\include</Filter>
     </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Alloc.cpp">
@@ -67,6 +73,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>源文件\src</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
