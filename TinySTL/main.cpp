@@ -6,4 +6,5 @@
 int main()
 {
 	TinySTL::StringTest::test1();
+	TinySTL::VectorTest::test1();
 }

@@ -4,5 +4,8 @@ namespace TinySTL{
 	namespace StringTest{
 		void test1();
 	}
+	namespace VectorTest{
+		void test1();
+	}
 }
 #endif

@@ -74,8 +74,11 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Vector.cpp">
-      <Filter>源文件\src</Filter>
+    <ClCompile Include="Vector.impl.h">
+      <Filter>头文件\include</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_test.cpp">
+      <Filter>源文件\test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

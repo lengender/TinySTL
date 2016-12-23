@@ -94,7 +94,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="string_test.cpp" />
-    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Vector.impl.h" />
+    <ClCompile Include="vector_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
