@@ -250,8 +250,7 @@ namespace TinySTL{
 	template<class InputIterator>
 	String::iterator String::insert(iterator p, InputIterator first, InputIterator last){
 		auto oldLen = capacity() - size();
-		size_t len = 0;
-		distance(first, last, len);
+		size_t len = distance(first, last);
 
 		if (len <= oldLen){
 			for (iterator it = finish - 1; it >= p; --it)

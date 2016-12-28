@@ -1,12 +1,13 @@
-﻿生成启动时间为 2016/12/23 11:24:19。
+﻿生成启动时间为 2016/12/28 11:56:39。
      1>项目“F:\git\TinySTL\TinySTL\TinySTL.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp string_test.cpp vector_test.cpp
-         vector_test.cpp
-         main.cpp
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt String.cpp Vector.impl.h string_test.cpp vector_test.cpp
+         String.cpp
          正在生成代码...
          正在编译...
+         vector_test.cpp
          string_test.cpp
+         Vector.impl.h
          正在生成代码...
        Link:
          D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\git\TinySTL\Debug\TinySTL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\git\TinySTL\Debug\TinySTL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\git\TinySTL\Debug\TinySTL.lib" /MACHINE:X86 Debug\Alloc.obj
@@ -20,4 +21,4 @@
 
 生成成功。
 
-已用时间 00:00:02.39
+已用时间 00:00:05.86

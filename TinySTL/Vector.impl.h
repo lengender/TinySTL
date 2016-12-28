@@ -254,8 +254,7 @@ namespace TinySTL{
 	void Vector<T, Alloc>::insert_aux(iterator pos, InputIterator first,
 		InputIterator last, std::false_type){
 		difference_type locationLeft = end_of_stroage - finish;
-		difference_type locationNeed;
-		distance(first, last, locationNeed);
+		difference_type locationNeed = distance(first, last);
 
 		if (locationLeft >= locationNeed){
 			if (finish - pos > locationNeed){
