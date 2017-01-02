@@ -1,6 +1,6 @@
 #ifndef _DEQUE_IMPL_H_
 #define _DEQUE_IMPL_H_
-#include"Deque.h"
+
 
 namespace TinySTL{
 	namespace Detail{

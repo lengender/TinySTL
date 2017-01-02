@@ -138,4 +138,6 @@ namespace TinySTL{
 		friend void swap(Deque<T, Alloc>& x, Deque<T, Alloc>& y);
 	};
 }
+
+#include"Deque.impl.h"
 #endif
