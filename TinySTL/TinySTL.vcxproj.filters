@@ -63,8 +63,14 @@
     <ClInclude Include="List.h">
       <Filter>头文件\include</Filter>
     </ClInclude>
+    <ClInclude Include="Deque.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
     <ClInclude Include="List.impl.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Deque.impl.h">
+      <Filter>头文件\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

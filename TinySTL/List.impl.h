@@ -1,8 +1,6 @@
 #ifndef _LIST_IMPL_H_
 #define _LIST_IMPL_H_
 
-#include"List.h"
-#include"algorithm.h"
 namespace TinySTL{
 	namespace Detail{
 		template<class T>
