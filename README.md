@@ -15,3 +15,5 @@
 12.28  完成List全部功能。下一步，完成Deque
 
 1.2    完成Deque全部功能。下一步，完成Stack
+
+1.2    完成Stack全部功能。下一步，完成Queue
