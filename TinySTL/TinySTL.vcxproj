@@ -82,9 +82,11 @@
     <ClInclude Include="construct.h" />
     <ClInclude Include="Deque.h" />
     <ClInclude Include="Deque.impl.h" />
+    <ClInclude Include="Functional.h" />
     <ClInclude Include="iterator.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="List.impl.h" />
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="reverseIterator.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Test.h" />
