@@ -97,7 +97,7 @@ namespace TinySTL{
 
 	typedef _default_alloc alloc;
 
-	/*template < class T, class Alloc >
+	template < class T, class Alloc >
 	class Simple_Alloc{
 	public:
 		static T* allocate(size_t n){
@@ -116,7 +116,7 @@ namespace TinySTL{
 		static void deallocate(T *p){
 			Alloc::deallocate(p, sizeof(T));
 		}
-	};*/
+	};
 }
 
 #endif
